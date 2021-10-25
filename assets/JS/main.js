@@ -8,36 +8,44 @@
 const team = 
 [
     { 
-        "name" : ["fabio", "pacifici"],
+        "name" : "fabiopacifici",
         "role" : "headteacher",
         "image" : "https://picsum.photos/id/1025/300/300"
 
     },
 
     {
-        "name" : ["tiziano", "nicolai"],
+        "name" : "tiziano nicolai",
         "role" : "tutor",
         "image" : "https://picsum.photos/id/1025/300/300"
     },
 
     {
-        "name" : ["fabiola", "gardin"],
+        "name" : "fabiola gardin",
         "role" : "tutor",
         "image" : "https://picsum.photos/id/1025/300/300"
     },
 
     {
-        "name" : ["andrea", "tosi"],
+        "name" : "andrea tosi",
         "role" : "student",
         "image" : "https://picsum.photos/id/1025/300/300"
     },
 
     {
-        "name" : ["pablo", "pacheco"],
+        "name" : "pablo pacheco",
         "role" : "student",
         "image" : "https://picsum.photos/id/1025/300/300"
     }
 
 ]
 
+//prova per vedere se riuscivo a chiamare i valori dalle chiavi
+// console.log(team[1].role);
+// console.log(team[2].name[1]);
 console.log(team);
+
+for (let i = 0; i < team.length; i++) {
+    const teamMember = team[i];
+    console.log(teamMember);
+}
